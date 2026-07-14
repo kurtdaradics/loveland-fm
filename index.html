@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loveland &amp; Co — Artist Management &amp; Development</title>
+  <meta name="description" content="Loveland & Co is an artist management and development company based in Ventura, California.">
+  <meta property="og:title" content="Loveland & Co">
+  <meta property="og:description" content="Artist management & development. Ventura, California.">
+  <meta property="og:url" content="https://loveland.fm">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://loveland.fm">
+  <style>
+    :root {
+      --bg: #161310;
+      --ink: #f0e9dc;
+      --muted: #a89a84;
+      --line: #3a332a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 34rem; }
+    h1 {
+      font-size: clamp(2.1rem, 7vw, 3.4rem);
+      font-weight: 400;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+    h1 .amp {
+      font-style: italic;
+      text-transform: none;
+      letter-spacing: 0;
+      color: var(--muted);
+      padding: 0 0.08em;
+    }
+    .rule {
+      width: 3.5rem;
+      height: 1px;
+      background: var(--line);
+      margin: 2.2rem auto;
+    }
+    p.tag {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+    }
+    ul.places {
+      list-style: none;
+      margin-top: 2.4rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      line-height: 2.3;
+    }
+    ul.places .place { color: var(--ink); }
+    ul.places .sep { color: #6d6353; padding: 0 0.5em; }
+    a.contact {
+      display: inline-block;
+      margin-top: 2.6rem;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.45rem;
+      transition: border-color 0.3s ease, color 0.3s ease;
+    }
+    a.contact:hover { border-color: var(--muted); color: #fff; }
+    footer {
+      position: fixed;
+      bottom: 1.6rem;
+      left: 0;
+      right: 0;
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #6d6353;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Loveland <span class="amp">&amp;</span> Co</h1>
+    <div class="rule"></div>
+    <p class="tag">An artist management &amp; development company.</p>
+    <ul class="places">
+      <li><span class="place">Ventura, California</span><span class="sep">—</span>HQ</li>
+      <li><span class="place">LAX</span><span class="sep">—</span>Fly hub</li>
+      <li><span class="place">Pioneertown</span><span class="sep">—</span>Outpost &amp; Loveland Studios</li>
+    </ul>
+    <a class="contact" href="mailto:kurt@loveland.fm">kurt@loveland.fm</a>
+  </main>
+  <footer>&copy; 2026 Loveland &amp; Co</footer>
+</body>
+</html>
