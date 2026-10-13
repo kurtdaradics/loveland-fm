@@ -32,21 +32,13 @@
       text-align: center;
       -webkit-font-smoothing: antialiased;
     }
-    main { max-width: 34rem; }
-    h1 {
-      font-size: clamp(1.6rem, 6.4vw, 3.4rem);
-      font-weight: 400;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      line-height: 1.2;
-      white-space: nowrap;
-    }
-    h1 .amp {
-      font-style: italic;
-      text-transform: none;
-      letter-spacing: 0;
-      color: var(--muted);
-      padding: 0 0.08em;
+    main { width: 100%; max-width: 34rem; }
+    h1 { line-height: 0; }
+    h1 img {
+      display: block;
+      width: min(100%, 30rem, 54vh);
+      height: auto;
+      margin: 0 auto;
     }
     .rule {
       width: 3.5rem;
@@ -159,7 +151,7 @@
 </head>
 <body>
   <main>
-    <h1>Loveland <span class="amp">&amp;</span> Co</h1>
+    <h1><img src="assets/loveland-logo.png" alt="Loveland" width="1600" height="461"></h1>
     <div class="rule"></div>
     <p class="tag">Music &amp; Media</p>
     <ul class="places">
